@@ -12,6 +12,7 @@ label {
   -ms-perspective:800px;
   -o-perspective:800px;
   perspective: 800px;
+
 }
 
 input {
@@ -25,10 +26,12 @@ input {
   -o-transform-style: preserve-3d;
   transform-style: preserve-3d;
   /*transition: transform 1s;*/
+
   -webkit-transition: all 1s;
   -moz-transition: all 1s;
   -ms-transition: all 1s;
   -o-transition: all 1s;
+
   transition: all 1s;
   position:relative;
   height:400px;
@@ -46,6 +49,7 @@ input {
   height: 100%;
   width: 100%;
  /* background: #FFF; */
+
   text-align: center;
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
@@ -109,14 +113,15 @@ input {
     }
 
 label:hover .card{
-  -webkit-transform: rotateX(20deg);
-  -moz-transform: rotateX(20deg);
-  -ms-transform: rotateX(20deg);
-  -o-transform: rotateX(20deg);
-  transform: rotateX(20deg);
+  -webkit-transform: rotateX(15deg);
+  -moz-transform: rotateX(15deg);
+  -ms-transform: rotateX(15deg);
+  -o-transform: rotateX(15deg);
+  transform: rotateX(15deg);
   box-shadow: 1px 15px 10px rgba(0, 0, 0, .3);
 
 }
+
 label:hover input:checked + .card {
   -webkit-transform: rotateX(160deg);
   -moz-transform: rotateX(160deg);
@@ -137,6 +142,8 @@ input:checked + .card {
 
 a{
   color:red;
+  text-decoration: none;
+  font-weight:bold;
 }
 
 #lmd{
