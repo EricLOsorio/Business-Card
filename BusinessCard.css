@@ -119,6 +119,7 @@ label:hover .card{
   -o-transform: rotateX(15deg);
   transform: rotateX(15deg);
   box-shadow: 1px 15px 10px rgba(0, 0, 0, .3);
+  cursor:pointer;
 
 }
 
