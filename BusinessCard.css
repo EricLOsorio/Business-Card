@@ -132,7 +132,7 @@ input {
 
 }
 
-.back img{
+.back > img{
   position:relative;
   height:400px;
   width:600px;
