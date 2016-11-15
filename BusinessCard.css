@@ -366,7 +366,12 @@ a{
 }
 
 @media (max-device-width:360px){
-    .encyclopedia{
+
+  .card{
+    height:87vh;
+  }
+
+  .encyclopedia{
     margin-top:0em;
     margin-left:1.5em;
   }
