@@ -36,7 +36,6 @@ input {
   position:relative;
   height:400px;
   width:600px;
- /* border:2px solid black;*/
   margin:0;
   margin-top:5%;
   background-color:black;
@@ -44,7 +43,8 @@ input {
   -ms-backface-visibility:hidden;
   -moz-backface-visibility:hidden;
   -o-backface-visibility:hidden;
-  backface-visibility: hidden
+  backface-visibility: hidden;
+  left:-13em;
 
 }
 
@@ -53,7 +53,7 @@ input {
   position: absolute;
   height: 100%;
   width: 100%;
- /* background: #FFF; */
+
 
   text-align: center;
   -webkit-backface-visibility: hidden;
@@ -185,6 +185,7 @@ a{
   padding-right:1%;
   margin-right:3%;
   margin-top:5%;
+
 }
 
 .encyclopedia{
@@ -202,6 +203,7 @@ a{
     height: 3px;
     background-color: white;
     margin:5px;
+
 }
 
 #up {
@@ -241,7 +243,7 @@ a{
   width:30px;
   float:right;
   margin-right:80px;
-  margin-top:40px;
+  margin-top:40px; 
 }
 
 .front ~ #downArrow{
@@ -258,14 +260,194 @@ a{
   position:relative;
   left:543px;
   top:-400px;
+  width:1em;
 }
 
 .back #downArrow{
   position:relative;
     transform:rotate(180deg);
   top:-1200px;
-  left:-20px;
+  left:560px;
+  width:1em;
 
 }
 
+@media (max-device-width:360px) and (min-device-height:200px),
+       (max-device-width:600px) and (min-device-height:200px),
+       (max-device-width:1024px) and (min-device-height:200px){
 
+
+  
+  label { 
+
+    top:0;
+    left:0;
+    display:block;
+    width:100vw;
+    height:80vh;
+    margin:0;
+
+  } 
+
+  .card {
+    width:100vw;
+    height:80vh;
+    left:0;border:5px solid white;
+    margin-bottom:10em;
+  }
+
+  .back{
+    height:80vh;
+  }
+
+   .card div  p.name{
+    font-size:8em;
+  }
+
+  .card div p.aboutme{
+    font-size:3em;
+  }
+
+  .front img{
+    height:1.5em;
+    width:1.5em;
+  }
+
+  .encyclopedia{
+    top:-3em;
+    font-size:2.5em;
+  }
+
+  #lmd{
+    position:relative;
+    top:4em;
+    left:-4em;
+  }
+
+  .card .back{
+      backface-visibility: hidden
+  }
+
+  .back > img{
+  position:relative;
+  height:100vh;
+  width:100vw;
+
+  }
+
+  #myName{
+    font-size:3em;
+    height:1em;
+    width:7em;
+  }
+
+  .back #upArrow{
+  color:red;
+  position:relative;
+  top:-1380px;
+  left:780px;
+  width:2em;
+  height:2em;
+
+  }
+
+  .back #downArrow{
+  position:relative;
+    transform:rotate(180deg);
+  top:-1560px;
+  left:740px;
+  width:2em;
+  height:2em;
+
+
+  }
+
+
+}
+
+@media (max-device-width:360px){
+    .encyclopedia{
+    margin-top:0em;
+    margin-left:1.5em;
+  }
+
+  #lmd{
+    font-size:2em;
+    top:0em;
+  }
+  .links{
+    font-size:2em;
+  }
+
+  .back #upArrow{
+    top:-1400px;
+  }
+
+  .back #downArrow{
+    top:-1590px;
+  }
+
+}
+
+@media (min-device-width:361px) and (max-device-width:600px) {
+
+  .back #downArrow{
+
+    top:-1550px;
+
+  }
+
+  .encyclopedia{
+    margin-top:0em;
+    margin-left:1.5em;
+  }
+
+  #lmd{
+    font-size:2em;
+    top:0em;
+  }
+  .links{
+    font-size:2em;
+  }
+
+  .back #upArrow{
+    top:-1400px;
+  }
+
+  .back #downArrow{
+    top:-1570px;
+  }
+
+}
+
+@media (min-device-width:601px) and (max-device-width:1024px){
+  .back #upArrow{
+
+  top:-1080px;
+  left:800px;
+
+
+  }
+
+  .back #downArrow{
+
+  top:-1178px;
+  left:805px;
+
+  }
+
+  .encyclopedia{
+    margin-top:0em;
+    margin-left:1.5em;
+  }
+
+  #lmd{
+    font-size:2em;
+    top:3em;
+    left:2em;
+  }
+  .links{
+    font-size:2em;
+  }
+
+}
