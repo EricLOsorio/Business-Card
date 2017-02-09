@@ -333,15 +333,17 @@ a{
 
   .back > img{
   position:relative;
-  height:100vh;
+  height:80vh;
   width:100vw;
 
   }
 
   #myName{
+    position:relative;
     font-size:3em;
     height:1em;
     width:7em;
+    top:-2em;
   }
 
   .back #upArrow{
@@ -367,6 +369,7 @@ a{
 
 
 }
+
 
 @media (max-device-width:360px){
 
@@ -419,28 +422,47 @@ a{
   }
 
   .back #upArrow{
-    top:-1400px;
+    top:-1090px;
+    left:785px;
   }
 
   .back #downArrow{
-    top:-1570px;
+    top:-1240px;
+    left:760px;
   }
+
+  .card {
+    width:98vw;
+    height:65vh;
+    left:0;border:5px solid white;
+    margin-bottom:10em;
+  }
+
+  .back{
+    height:65vh;
+  }  
+
+  .back > img{
+  position:relative;
+  height:65vh;
+  width:98vw;
+  }  
 
 }
 
 @media (min-device-width:601px) and (max-device-width:1024px){
   .back #upArrow{
 
-  top:-1080px;
-  left:800px;
+  top:-1005px;
+  left:830px;
 
 
   }
 
   .back #downArrow{
 
-  top:-1178px;
-  left:805px;
+  top:-1082px;
+  left:830px;
 
   }
 
@@ -459,3 +481,4 @@ a{
   }
 
 }
+
