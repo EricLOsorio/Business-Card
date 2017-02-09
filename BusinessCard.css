@@ -258,22 +258,21 @@ a{
 
 }
 
-.back #upArrow{
-  color:red;
+.back i{
   position:relative;
-  left:543px;
-  top:-400px;
-  width:1em;
+  top:-9em;
+  left:5em;
 }
 
-.back #downArrow{
+.front i{
   position:relative;
-    transform:rotate(180deg);
-  top:-1200px;
-  left:560px;
-  width:1em;
+  top:-7em;
+  left:5em;
 
 }
+
+
+
 
 @media (max-device-width:360px) and (min-device-height:200px),
        (max-device-width:600px) and (min-device-height:200px),
@@ -346,35 +345,15 @@ a{
     top:-2em;
   }
 
-  .back #upArrow{
-  color:red;
-  position:relative;
-  top:-1380px;
-  left:780px;
-  width:2em;
-  height:2em;
-
-  }
-
-  .back #downArrow{
-  position:relative;
-    transform:rotate(180deg);
-  top:-1560px;
-  left:740px;
-  width:2em;
-  height:2em;
-
-
-  }
-
-
 }
 
 
 @media (max-device-width:360px){
 
   .card{
-    height:87vh;
+    width:95%;
+    left:20px;
+
   }
 
   .encyclopedia{
@@ -385,29 +364,29 @@ a{
   #lmd{
     font-size:2em;
     top:0em;
+    left:5px;
   }
   .links{
     font-size:2em;
   }
 
-  .back #upArrow{
-    top:-1400px;
+    .back i{
+    position:relative;
+    top:-1120px;
+    left:7em;
   }
 
-  .back #downArrow{
-    top:-1590px;
-  }
+.front i{
+  position:relative;
+  top:-20.7em;
+  left:8.3em;
+
+}    
 
 }
 
 @media (min-device-width:361px) and (max-device-width:600px) {
 
-  .back #downArrow{
-
-    top:-1550px;
-
-  }
-
   .encyclopedia{
     margin-top:0em;
     margin-left:1.5em;
@@ -416,25 +395,17 @@ a{
   #lmd{
     font-size:2em;
     top:0em;
+    left:10px;
   }
   .links{
     font-size:2em;
   }
 
-  .back #upArrow{
-    top:-1090px;
-    left:785px;
-  }
-
-  .back #downArrow{
-    top:-1240px;
-    left:760px;
-  }
 
   .card {
-    width:98vw;
-    height:65vh;
-    left:0;border:5px solid white;
+    width:95%;
+    height:70vh;
+    left:15px;border:5px solid white;
     margin-bottom:10em;
   }
 
@@ -448,23 +419,22 @@ a{
   width:98vw;
   }  
 
+  .back i{
+    position:relative;
+    top:-1070px;
+    left:7em;
+  }  
+
+.front i{
+  position:relative;
+  top:-20.7em;
+  left:8.3em;
+
+}    
+
 }
 
 @media (min-device-width:601px) and (max-device-width:1024px){
-  .back #upArrow{
-
-  top:-1005px;
-  left:830px;
-
-
-  }
-
-  .back #downArrow{
-
-  top:-1082px;
-  left:830px;
-
-  }
 
   .encyclopedia{
     margin-top:0em;
@@ -479,6 +449,24 @@ a{
   .links{
     font-size:2em;
   }
+  .back i{
+    position:relative;
+    top:-1000px;
+    left:7em;
+  }
+
+  .card{
+    width:95%;
+    left:15px;
+  }
+
+.front i{
+  position:relative;
+  top:-20.3em;
+  left:8.3em;
+
+}  
+
 
 }
 
