@@ -245,21 +245,21 @@ html{
   
   .labelWrapper{ 
 
-    top:0;
-    left:0;
     display:block;
-    width:100vw;
     height:80vh;
+    left:0;
     margin:0;
+    top:0;
+    width:100vw;
 
   } 
 
 
   .card {
-    width:100vw;
     height:80vh;
     left:0;border:5px solid white;
     margin-bottom:10em;
+    width:100vw;
   }
 
   .card .card__back{
@@ -274,19 +274,19 @@ html{
     font-size:3em;
   }
 
-  .card__front img{
+  .card__front .card__linkIcon{
     height:1.5em;
     width:1.5em;
   }
 
   .card__encyclopediaInfo{
-    top:-3em;
     font-size:2.5em;
+    top:-3em;
   }
 
   .card__lmdIcon { position:relative;
-    top:4em;
     left:-4em;
+    top:4em;
   }
 
   .card .card__back{
@@ -294,20 +294,20 @@ html{
   }
 
   .card .card__back > .card__backImg{
-  position:relative;
   height:80vh;
+  position:relative;
   width:100vw;
 
   }
 
   .card__back .card__nameOutlined{
-    position:relative;
-    padding-bottom:0.5em;
-    height:1em;
-    width:9em;
-    top:-3em;
     font-size:2em;
+    height:1em;
+    padding-bottom:0.5em;
+    position:relative;
+    top:-3em;
     vertical-align:middle;
+    width:9em;
   }
 
 }
@@ -316,44 +316,43 @@ html{
 @media (max-device-width:360px){
 
   .card{
+    left:20px;
     top:8em;
     width:95%;
-    left:20px;
 
   }
 
   .card .card__front p.card__encyclopediaInfo{
+    left:1em;
     position:relative;
     top:0em;
-    left:1em;
   }
 
   .card__lmdIcon{
+    left:16.5em;
+    top:17em;
     font-size:2em;
-      top:17em;
-      left:16.5em;
   }
   .card__linkIcon{
     font-size:2em;
   }
 
   .card .card__back .card__flipIcon{
+    left:8em;
     position:relative;
     top:-1220px;
-    left:8em;
   }
 
 .card__front .card__flipIcon{
+  left:8.5em;
   position:relative;
   top:-22.7em;
-  left:8.5em;
 } 
 
   .card .card__back > .card__backImg{
-  position:relative;
-  height:80vh;
-  width:95%;
-
+    height:80vh;
+    position:relative;
+    width:95%;
   }   
 
 }
@@ -362,13 +361,13 @@ html{
 
   .card .card__front p.card__encyclopediaInfo{
 
-    margin-top:2em;
     margin-left:2.5em;
+    margin-top:2em;
   }
 
   .card__lmdIcon{
-      top:21em;
       left:16.7em;
+      top:21em;
   }
   .card__linkIcon{
     font-size:2em;
@@ -376,11 +375,11 @@ html{
 
 
   .card {
-    top:8em;
-    width:95%;
     height:75vh;
     left:15px;border:5px solid white;
     margin-bottom:10em;
+    top:8em;
+    width:95%;
   }
 
   .card .card__back{
@@ -388,22 +387,21 @@ html{
   }  
 
   .card .card__back > .card__backImg{
-    position:relative;
     height:75vh;
+    position:relative;
     width:95%;
   }  
 
   .card .card__back .card__flipIcon{
+    left:7em;
     position:relative;
     top:-1170px;
-    left:7em;
   }  
 
 .card__front .card__flipIcon{
+  left:9em;
   position:relative;
   top:-22.7em;
-  left:9em;
-
 }    
 
 }
@@ -411,36 +409,36 @@ html{
 @media (min-device-width:601px) and (max-device-width:1024px){
 
   .card_encyclopediaInfo{
-    margin-top:0em;
     margin-left:1.5em;
+    margin-top:0em;
   }
 
   .card__lmdIcon{
-      top:28em;
       left:17em;
+      top:28em;
     }
   .card__linkIcon{
       font-size:2em;
     }
 
   .card .card__front .card__flipIcon{
-    position:relative;
     left:9.5em;
+    position:relative;
     top:-21.5em;
   }  
 
   .card .card__back .card__flipIcon{
+      left:8em;
       position:relative;
       top:-1000px;
-      left:8em;
     }
 
   .card{
+      font-size:0.9em;
+      height:80vh;
+      left:20px;
       top:5em;
       width:95%;
-      left:20px;
-      height:80vh;
-      font-size:0.9em;
     }
 
   .card .card__back{
@@ -448,15 +446,15 @@ html{
     }  
 
   .card .card__back > .card__backImg{
-    position:relative;
     height:80vh;
+    position:relative;
     width:95%;
     }  
 
   .card__front .card__flipIcon{
+    left:8.5em;
     position:relative;
     top:-21.7em;
-    left:8.5em;
 
   }  
 
